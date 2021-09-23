@@ -234,18 +234,6 @@ h1{
   padding: 40px;
 }
 
-.box2-ttl{
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 30px;
-}
-
-.box2-text{
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 24px;
-}
-
 .service-box3{
   grid-column: 2/3;
   grid-row: 2/3;
@@ -256,12 +244,14 @@ h1{
   padding: 40px;
 }
 
+.box2-ttl,
 .box3-ttl{
   font-size: 16px;
   font-weight: bold;
   line-height: 30px;
 }
 
+.box2-text,
 .box3-text{
   font-size: 16px;
   font-weight: normal;
@@ -396,13 +386,19 @@ table th{
 
 .main-recruit{
   background: #fff;
-  margin: 100px auto;
   display: flex;
 }
 
 .recruit,
 .interview{
+  width: 100%;
   position: relative;
+}
+
+.recruit-img,
+.interview-img{
+  width: 100%;
+
 }
 
 .recruit-text,
@@ -414,6 +410,7 @@ table th{
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+  
   
 }
 
@@ -475,7 +472,6 @@ footer{
   width: 100%;
   text-align: center;
   padding: 20px 0;
-  
 }
 
 small{
